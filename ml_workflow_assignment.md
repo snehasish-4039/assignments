@@ -1,10 +1,10 @@
 # Task 1:
 
-***Label*** -> ``` repeat_purchase_flag ```
+***Label*** -> ``` repeat_purchase_flag ```.
 *Reason* -> This is what we are trying to predict (whether customer will purchase again within 30 days).
 
 ***Column causing Data Leakage:***
-```discount_used_on_repeat_order```
+```discount_used_on_repeat_order```.
 *Reason* ->This value is only known after the repeat purchase happens, so it leaks future information into the model.
 
 # Task 2:
